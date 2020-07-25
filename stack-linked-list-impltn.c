@@ -17,7 +17,7 @@ bool isEmpty(){
 }
 
 void push (int newValue) {
-    if (isEmpty == false) {
+    if (isEmpty == true) {
         top = (node_t*) malloc(sizeof(node_t));
         top->data = newValue;
         top->next = NULL;
